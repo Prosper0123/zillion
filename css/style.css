@@ -4,8 +4,9 @@
 	box-sizing: border-box;
 }
 
+/*Section one starts here*/
 section#section-one{
-	height: 100vh;
+	height: 120vh;
 	background-color: #311E25;
 }
 
@@ -48,8 +49,16 @@ div.nav-container > nav.nav-bar > .nav-list{
 	font-size: 1.3em;
 }
 
+/*hero section starts here*/
+
+#hero-section{
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid white;
+}
+/*hero section ends here*/
+
 div.nav-container > nav.nav-bar > .nav-list > li a{
 	color: white;
 	text-decoration: none;
 	color:#DB9A64;
-}
